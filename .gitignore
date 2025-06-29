@@ -1,0 +1,12 @@
+# 添加基本的 gitignore 文件
+node_modules/
+dist/
+build/
+.DS_Store
+.env
+*.log
+.vscode/
+.idea/
+coverage/
+*.tgz
+*.tar.gz

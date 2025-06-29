@@ -1,0 +1,36 @@
+{
+  "name": "interview-practice-collection",
+  "version": "1.0.0",
+  "description": "面試題目練習集",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm run install:react-like && npm run install:clock",
+    "install:react-like": "cd ReactLikeDislikeTypescript && npm install",
+    "install:clock": "cd RunningClock && npm install",
+    "dev:react-like": "cd ReactLikeDislikeTypescript && npm run dev",
+    "dev:clock": "cd RunningClock && npm run dev",
+    "build:react-like": "cd ReactLikeDislikeTypescript && npm run build",
+    "build:clock": "cd RunningClock && npm run build",
+    "test:cycle": "node IsCycleCheck/index.js"
+  },
+  "keywords": [
+    "interview",
+    "practice",
+    "algorithm",
+    "react",
+    "typescript",
+    "javascript",
+    "graph-theory",
+    "frontend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipeijia/interview-practice-collection"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
